@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>V22 Solutions Ltd | Business Consulting</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --black: #0b0b0b;
+      --gold: #c9a24d;
+      --orange: #ff8c42;
+      --text: #eaeaea;
+      --muted: #b5b5b5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--black);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: var(--muted);
+    }
+
+    .sprocket {
+      margin: 40px auto 0;
+      width: 80px;
+      opacity: 0.9;
+    }
+
+    .divider {
+      width: 60px;
+      height: 3px;
+      background: var(--orange);
+      margin: 30px auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .about p {
+      max-width: 800px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      border: 1px solid rgba(255,255,255,0.08);
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: var(--orange);
+      transform: translateY(-4px);
+    }
+
+    .card h3 {
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+
+    .contact a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+      border-bottom: 2px solid transparent;
+    }
+
+    .contact a:hover {
+      border-color: var(--orange);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.85rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>V22 Solutions Ltd</h1>
+  <div class="divider"></div>
+  <p>Business consulting with a recruitment specialism.<br>
+     Tailored solutions across the UK.</p>
+
+  <!-- Simple sprocket icon (SVG) -->
+  <svg class="sprocket" viewBox="0 0 100 100" fill="none" stroke="#c9a24d" stroke-width="4">
+    <circle cx="50" cy="50" r="18"/>
+    <path d="M50 2v14M50 84v14M2 50h14M84 50h14
+             M14 14l10 10M76 76l10 10
+             M14 86l10-10M76 24l10-10"/>
+    <circle cx="50" cy="50" r="34"/>
+  </svg>
+</header>
+
+<section class="about">
+  <h2>What We Do</h2>
+  <p>
+    V22 Solutions Ltd provides adaptable business consulting services with a strong
+    recruitment focus. We work across sectors, helping organisations identify problems,
+    streamline operations, and implement practical, results-driven solutions.
+  </p>
+</section>
+
+<section>
+  <h2>Core Capabilities</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Business Consulting</h3>
+      <p>Strategic and operational support designed to evolve with your organisation.</p>
+    </div>
+
+    <div class="card">
+      <h3>Recruitment Solutions</h3>
+      <p>Targeted recruitment strategies aligned to your business goals.</p>
+    </div>
+
+    <div class="card">
+      <h3>Problem Solving</h3>
+      <p>Analytical, sector-agnostic solutions that address root causes, not symptoms.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Get in Touch</h2>
+  <p>Let’s discuss how V22 Solutions can support your business.</p>
+  <p>
+    <a href="mailto:info@v22solutions.co.uk">info@v22solutions.co.uk</a>
+  </p>
+</section>
+
+<footer>
+  © 2026 V22 Solutions Ltd. All rights reserved.
+</footer>
+
+</body>
+</html>
+
